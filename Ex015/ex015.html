@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Analisador de Números</h1></header>
+    <main>
+        <div id="user_value_area">
+            <label for="user_value"><strong>Número (entre 1 e 100)</strong></label>
+            <input type="number" name="user_value" id="user_value">
+            <input type="button" value="Adicionar" onclick="add()">
+        </div>
+        <select name="flista" id="flista" size="6"></select>
+        <br>
+        <input type="button" id="Fbutton" value="Finalizar" onclick="processar()">
+        <div id="res"></div>
+    </main>
+    <footer>
+        <span>&copy; <em>CursoemVídeo</em></span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
